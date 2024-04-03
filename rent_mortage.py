@@ -95,7 +95,7 @@ df = pd.DataFrame(data)
 df.loc[df['location'] == 'NYC', ['down_pmt_percent', 'down_pmt_amount', 'loan_amount', 'loan_term']] = np.nan
 
 # Export DataFrame to Excel
-df.to_excel('/Users/barbaratalagan/Desktop/output_data.xlsx', index=False)
+df.to_excel('/Users/nisharamasubramonian/Desktop/output_data.xlsx', index=False)
 
 # Display the dataframe
 print(df)
