@@ -13,7 +13,7 @@ dates = pd.DatetimeIndex(np.random.choice(date_range, size=10000, replace=True))
 locations = np.random.choice(['long_island', 'NYC'], size=10000)
 
 # Import zip code data
-zip_data = pd.read_excel('/Users/barbaratalagan/Desktop/zip_town_county.xlsx')
+zip_data = pd.read_excel('/Users/nisharamasubramonian/Desktop/zip_town_county.xlsx')
 
 # Filter zip code data for long_island locations
 long_island_zip = zip_data[zip_data['location'] == 'long_island']['zip_code']
